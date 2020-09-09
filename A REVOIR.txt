@@ -1,0 +1,19 @@
+ FONCTIONS_UTILISEES
+2   VARIABLES
+3     A EST_DU_TYPE NOMBRE
+4     B EST_DU_TYPE NOMBRE
+5   DEBUT_ALGORITHME
+6     LIRE A
+7     LIRE B
+8     SI (A*B<0) ALORS
+9       DEBUT_SI
+10      AFFICHER "leur produit est négatif"
+11      FIN_SI
+12      SINON
+13        DEBUT_SINON
+14        SI (A*B>0) ALORS
+15          DEBUT_SI
+16          AFFICHER "leur produit est positif"
+17          FIN_SI
+18        FIN_SINON
+19  FIN_ALGORITHME
